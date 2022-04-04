@@ -1,3 +1,3 @@
 # harjoittelu-ananas
 
-Tänne tulee listaa koulutehtävien koodeista ja muusta vastaavasta.
+Tänne tulee listaa pienempien koulutehtävien koodeista ja muusta vastaavasta.
