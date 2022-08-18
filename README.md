@@ -1,3 +1,3 @@
-# harjoittelu-ananas
+# koulu-harjoitukset
 
-Tänne tulee listaa pienempien koulutehtävien koodeista ja muusta vastaavasta.
+Koulutehtävien koodeja C#-kielellä.
