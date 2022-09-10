@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="koodaukset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mate+SC&family=Pacifico&family=Space+Mono&display=swap" rel="stylesheet">
+  <style>
+  	.vari1 {
+	 color: green;
+    }
+	#vari2 {
+	 color: red;
+	}
+	#vari3 {
+	 color: blue;
+	}
+	
+	#veljekset1 {
+	 color: darkolivegreen;
+	 background-color: lemonchiffon;
+	}
+	#veljekset2 {
+	 color: maroon;
+	 background-color: navajowhite;
+	}
+	.velilaatikko {
+	 border: 2px solid maroon;
+	 padding: 5px;
+	 margin: 10px;
+	}
+	
+	.loota1 {
+	  background-color: darksalmon;
+	  color: floralwhite;
+	  border: 2px dotted maroon;
+	  width: 50%;
+	  padding: 20px;
+	  margin: 20px;
+	  box-shadow: 7px 7px 5px darkgrey;
+	  font-family: 'Mate SC', serif;
+	  font-family: 'Pacifico', cursive;
+	  font-family: 'Space Mono', monospace;
+	}
+  </style>
+ </head>
+ <body>
+
+   <div class="header">
+     <h2> HTML&CSS index.php </h2>
+   </div>
+
+   <div class="row">
+
+    <div class="col-3 col-s-3 menu">
+      <ul>
+       <a class="pois" href="index.php"><li> Tehtävä 1 - 6 </li></a>
+       <a class="pois" href="sivu1.php"><li> Tehtävä 7 - 12 </li></a>
+       <a class="pois" href="sivu2.php"><li> Tehtävä 13 - 18 </li></a>
+       <a class="pois" href="sivu3.php"><li> Tehtävä 19 - 24 </li></a>
+       <a class="pois" href="sivu4.php"><li> Tehtävä 25 - 30 </li></a>
+       <a class="pois" href="sivu5.php"><li> Tehtävä 31 - 36 </li></a>
+       <a class="pois" href="sivu6.php"><li> Tehtävä 37 - 42 </li></a>	  
+      </ul>
+    </div>
+
+    <div class="col-9 col-s-9">
+      <h3> Tehtävä 1 </h3>
+      <p> Ensimmäinen php-kokeilu.<br>
+	  </p>
+	  <!-- TEHT 1 KOODAUS -->
+	  <div class="koodaus"><pre>
+HTML- ja PHP-koodaus:
+
+   &LT?php
+   echo "&ltp class='vari1'>Hyvää päivää! &ltbr>Tämä on ensimmäinen PHP-koodi&ltbr>&lt/p>";
+   /* tämä on ohjelmoitsijan muistiinpano */
+   echo "&ltp id='vari2'>EKA KOKEILU WOOOO JEE !!!&lt/p>";
+   echo "&ltpre id='vari3'>cool, jeejee !!!&lt/pre>";
+   ?>
+
+CSS-ohjeet:
+
+ .vari1 {
+  color: green;
+  }
+  #vari2 {
+  color: red;
+  }
+  #vari3 {
+  color: blue;
+  }
+	  </pre></div>
+	  <!-- TEHT 1 ALKU -->
+     <?php
+      echo "<p class='vari1'>Hyvää päivää! <br>Tämä on ensimmäinen PHP-koodi<br></p>";
+	  /* tämä on ohjelmoitsijan muistiinpano */
+	  echo "<p id='vari2'>EKA KOKEILU WOOOO JEE !!!</p>";
+	  echo "<pre id='vari3'>cool, jeejee !!!</pre>";
+     ?>	  
+	  <!-- TEHT 1 LOPPU -->
+  
+      <h3> Tehtävä 2 </h3>
+      <p> Seitsemän veljestä -sitaatit muuttujissa.<br>
+	  </p>
+	  <!-- TEHT 2 KOODAUS -->
+	  <div class="koodaus"><pre>
+HTML- ja PHP-koodaus:
+
+&ltdiv class="velilaatikko">
+ &lt?php
+   $lainaus1 = "Eikö kenkään meistä osaa ulkoa yhtään ainoata rukousta. Lukekaat, armaat veljet,
+   hellittäkäät Herran nimessä mitä vaan muistatte, mitä vaan päähän pistää, ilman yhtään sovittelemista
+   raamatunkappaletta ainetta myöten. Lukekaat vaikka hätäkasteesta, veljet armaat.&ltbr>";
+   $lainaus2 = "Ehdittiin tuosta viimein kuuhun, joka, niinkuin sokeaeno kertoili, on suuri,
+   ympyrjäinen ja loistava kallio-saari ilmassa.&ltbr>";
+   $otsikko1 = "JUHANI&ltbr>";
+   $otsikko2 = "SIMEONI&ltbr>";
+	  
+   echo "&lth4 id='veljekset1'>" . $otsikko1 . "&lt/h4>";
+   echo "&ltp id='veljekset2'>" . $lainaus1 . "&lt/p>";
+   echo "&lth4 id='veljekset1'>" . $otsikko2 . "&lt/h4>";
+   echo "&ltp id='veljekset2'>" . $lainaus2 . "&lt/p>";
+    ?>
+&lt/div>
+
+CSS-ohjeet:
+
+   #veljekset1 {
+	 color: darkolivegreen;
+	 background-color: lemonchiffon;
+	}
+   #veljekset2 {
+	 color: maroon;
+	 background-color: navajowhite;
+	}
+   .velilaatikko {
+	 border: 2px solid maroon;
+	 padding: 5px;
+	 margin: 10px;
+	}
+
+	  </pre></div>
+	  <!-- TEHT 2 ALKU -->
+	<div class="velilaatikko">
+    <?php
+      $lainaus1 = "Eikö kenkään meistä osaa ulkoa yhtään ainoata rukousta. Lukekaat, armaat veljet,
+	  hellittäkäät Herran nimessä mitä vaan muistatte, mitä vaan päähän pistää, ilman yhtään sovittelemista
+	  raamatunkappaletta ainetta myöten. Lukekaat vaikka hätäkasteesta, veljet armaat.<br>";
+	  $lainaus2 = "Ehdittiin tuosta viimein kuuhun, joka, niinkuin sokeaeno kertoili, on suuri,
+	  ympyrjäinen ja loistava kallio-saari ilmassa.<br>";
+	  $otsikko1 = "JUHANI<br>";
+	  $otsikko2 = "SIMEONI<br>";
+	  
+	  echo "<h4 id='veljekset1'>" . $otsikko1 . "</h4>";
+	  echo "<p id='veljekset2'>" . $lainaus1 . "</p>";
+	  echo "<h4 id='veljekset1'>" . $otsikko2 . "</h4>";
+	  echo "<p id='veljekset2'>" . $lainaus2 . "</p>";
+    ?>
+	</div>
+	  
+	  <!-- TEHT 2 LOPPU -->	  
+	  
+      <h3> Tehtävä 3 </h3>
+      <p> Ympyrän pinta-alaa yms laskuja PHP:llä (tää oli ihan sika kivaa!!).<br>
+	  </p>
+	  <!-- TEHT 3 KOODAUS -->
+	  <div class="koodaus"><pre>
+HTML-koodaus:
+
+&ltdiv class="loota1">
+   &lt?php
+   $teksti_1 = "&lth3>Ympyrän kehän laskeminen&lt/h3>";
+   $teksti_2 = "kehä";
+   $sade = 10;
+   $pii = 3.14;
+
+   print "" . $teksti_1 . "&ltbr>";
+   print "Ympyrän " . $teksti_2 . " lasketaan kaavalla:&ltbr>";
+   print "Ala = 2 * π * säde&ltbr>&ltbr>";
+   print "Jos säde on 10&ltbr>" . $teksti_2 . " on ";
+   print "" .  2 * $pii * $sade . ".&ltbr>";
+   print "ympyrän pinta-ala on " . $pii * $sade * $sade . ".&ltbr>";
+   print "pallon pinta-ala on " . 4 * $pii * $sade * $sade . ".&ltbr>";
+   print "pallon tilavuus on " . (4 * $pii * $sade * $sade * $sade) / 3 . ".&ltbr>";
+    ?>
+	&lt/div>
+
+CSS-ohjeet:
+
+.loota1 {
+  background-color: darksalmon;
+  color: floralwhite;
+  border: 2px dotted maroon;
+  width: 50%;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 7px 7px 5px darkgrey;
+  font-family: 'Mate SC', serif;
+  font-family: 'Pacifico', cursive;
+  font-family: 'Space Mono', monospace;
+  }
+
+	  </pre></div>
+	  <!-- TEHT 3 ALKU -->
+	  
+	<div class="loota1">
+    <?php
+    $teksti_1 = "<h3>Ympyrän kehän laskeminen</h3>";
+    $teksti_2 = "kehä";
+    $sade = 10;
+    $pii = 3.14;
+
+    print "" . $teksti_1 . "<br>";
+    print "Ympyrän " . $teksti_2 . " lasketaan kaavalla:<br>";
+    print "Ala = 2 * π * säde<br><br>";
+    print "Jos säde on 10<br>" . $teksti_2 . " on ";
+    print "" .  2 * $pii * $sade . ".<br>";
+	print "ympyrän pinta-ala on " . $pii * $sade * $sade . ".<br>";
+	print "pallon pinta-ala on " . 4 * $pii * $sade * $sade . ".<br>";
+	print "pallon tilavuus on " . (4 * $pii * $sade * $sade * $sade) / 3 . ".<br>";
+    ?>
+	</div>
+
+	  
+	  <!-- TEHT 3 LOPPU -->		  
+	  
+      <h3> Tehtävä 4 </h3>
+      <p> Muuttujilla laskemista.<br>
+	  </p>
+	  <!-- TEHT 4 KOODAUS -->
+	  <div class="koodaus"><pre>
+HTML-koodaus:
+
+&ltdiv class="loota1">
+  &lt?php
+  $luku1 = 3;
+  $luku2 = 7;
+  $luku3 = 10;
+  $tulos = $luku1 + $luku2 + $luku3;
+  
+  echo $luku1 . " + " . $luku2 . " + " . $luku3 . "&ltbr>";
+  echo "= " . $tulos;
+  ?>
+  &lt/div>
+
+	  </pre></div>
+	  <!-- TEHT 4 ALKU -->
+	  
+	<div class="loota1">
+    <?php
+	$luku1 = 3;
+	$luku2 = 7;
+	$luku3 = 10;
+	$tulos = $luku1 + $luku2 + $luku3;
+	
+	echo $luku1 . " + " . $luku2 . " + " . $luku3 . "<br>";
+	echo "= " . $tulos;
+    ?>
+	</div>
+
+	  
+	  <!-- TEHT 4 LOPPU -->		  
+	  
+      <h3> Tehtävä 5 </h3>
+      <p> Kolmen vastuksen rinnankytkennän kokonaisvastuksen lasku.<br>
+	  </p>
+	  <!-- TEHT 5 KOODAUS -->
+	  <div class="koodaus"><pre>
+HTML-koodaus:
+
+  &ltdiv class="loota1">
+  &lt?php
+  $R1 = 10;
+  $R2 = 10;
+  $R3 = 10;
+  $Rkok = 1 / ((1 / $R1) + (1 / $R2) + (1 / $R3));
+	
+  echo "1 / (1 /" . $R1 . " +  1  / " . $R2 . " + 1 / " . $R3 . ")&ltbr>";
+  $Rkok = number_format($Rkok, 2,',',' ');
+  echo  "= " . $Rkok . "Ω";
+  ?>
+  &lt/div>
+
+	  </pre></div>
+	  <!-- TEHT 5 ALKU -->
+	  
+	<div class="loota1">
+    <?php
+	$R1 = 10;
+	$R2 = 10;
+	$R3 = 10;
+	$Rkok = 1 / ((1 / $R1) + (1 / $R2) + (1 / $R3));
+	
+	echo "1 / (1 /" . $R1 . " +  1  / " . $R2 . " + 1 / " . $R3 . ")<br>";
+	$Rkok = number_format($Rkok, 2,',',' ');
+	echo  "= " . $Rkok . "Ω";
+    ?>
+	</div>
+
+	  
+	  <!-- TEHT 5 LOPPU -->		  
+	  
+      <h3> Tehtävä 6 </h3>
+      <p> Lainaukset taulukossa.<br>
+	  </p>
+	  <!-- TEHT 6 KOODAUS -->
+	  <div class="koodaus"><pre>
+HTML-koodaus:
+
+&ltdiv class="loota1">
+  &lt?php
+   $lainaus1 = '"Lähes kaikki suuri on nuorten tekemää."';
+   $lainaus2 = '"Nuoressa ei huilaaminen mene hukkaan."';
+   $lainaus3 = '"Nuoret ovat säännöllisesti ajattelemattomia."';
+   
+   echo $lainaus1 . "&ltbr>" . "- Benjamin Franklin" . "&ltbr>" . $lainaus2 . "&ltbr>" . "- suomalainen sananlasku" . "&ltbr>" . $lainaus3 . "&ltbr>" . "- Homeros";
+   
+  ?>
+&lt/div>
+
+	  </pre></div>
+	  <!-- TEHT 6 ALKU -->
+	  
+	  <div class="loota1">
+      <?php
+      $lainaus1 = '"Lähes kaikki suuri on nuorten tekemää."';
+      $lainaus2 = '"Nuoressa ei huilaaminen mene hukkaan."';
+      $lainaus3 = '"Nuoret ovat säännöllisesti ajattelemattomia."';
+   
+      echo $lainaus1 . "<br>" . "- Benjamin Franklin" . "<br>" . $lainaus2 . "<br>" . "- suomalainen sananlasku" . "<br>" . $lainaus3 . "<br>" . "- Homeros";
+   
+      ?>
+      </div>
+
+	  
+	  <!-- TEHT 6 LOPPU -->		  
+	  
+	  
+	  
+	  
+	  
+    </div>
+
+
+
+   </div>
+
+   <div class="footer">
+     <p> Joanna Haavisto </p>
+   </div>
+
+ </body>
+</html>
