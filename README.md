@@ -1,3 +1,3 @@
 # koulu-harjoitukset
 
-Koulutehtävien koodeja C#-kielellä.
+Koulutehtävien koodeja C#, PHP:llä ja JavaScriptillä.
