@@ -1,0 +1,55 @@
+.vari1 {
+	    color: green;
+       }
+#vari2 {
+	    color: red;
+	   }
+#vari3 {
+	    color: blue;
+	   }
+	
+#veljekset1 {
+	    color: darkolivegreen;
+	    background-color: lemonchiffon;
+	   }
+#veljekset2 {
+	    color: maroon;
+	    background-color: navajowhite;
+	   }
+.velilaatikko {
+	    border: 2px solid maroon;
+	    padding: 5px;
+	    margin: 10px;
+	   }
+	
+.loota1 {
+        background-color: darksalmon;
+	    color: floralwhite;
+	    border: 2px dotted maroon;
+	    width: 50%;
+	    padding: 20px;
+	    margin: 20px;
+	    box-shadow: 7px 7px 5px darkgrey;
+	    font-family: 'Mate SC', serif;
+	    font-family: 'Pacifico', cursive;
+	    font-family: 'Space Mono', monospace;
+	   }
+
+.pun {
+		width: 50%;
+		border: 2px solid saddlebrown;
+		background-color: peachpuff;
+		color: saddlebrown;
+        font-family: 'Pacifico', cursive;
+		font-family: 'Space Mono', monospace;
+        padding: 20px;
+        margin: 20px;		
+	  }
+.loota2 {
+		width: 50%;
+		background-color: #3c4542;
+		color: #ef91b9;
+		border: 4px solid #d92870;
+		padding: 20px;
+		font-family: 'Special Elite', cursive;
+	   }
