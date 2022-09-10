@@ -56,13 +56,13 @@
 
     <div class="col-3 col-s-3 menu">
       <ul>
-       <a class="pois" href="index.php"><li> Tehtävä 1 - 6 </li></a>
-       <a class="pois" href="sivu1.php"><li> Tehtävä 7 - 12 </li></a>
-       <a class="pois" href="sivu2.php"><li> Tehtävä 13 - 18 </li></a>
-       <a class="pois" href="sivu3.php"><li> Tehtävä 19 - 24 </li></a>
-       <a class="pois" href="sivu4.php"><li> Tehtävä 25 - 30 </li></a>
-       <a class="pois" href="sivu5.php"><li> Tehtävä 31 - 36 </li></a>
-       <a class="pois" href="sivu6.php"><li> Tehtävä 37 - 42 </li></a>	  
+       <a class="pois" href="phpindex.php"><li> Tehtävä 1 - 6 </li></a>
+       <a class="pois" href="phpsivu1.php"><li> Tehtävä 7 - 12 </li></a>
+       <a class="pois" href="phpsivu2.php"><li> Tehtävä 13 - 18 </li></a>
+       <a class="pois" href="phpsivu3.php"><li> Tehtävä 19 - 24 </li></a>
+       <a class="pois" href="phpsivu4.php"><li> Tehtävä 25 - 30 </li></a>
+       <a class="pois" href="phpsivu5.php"><li> Tehtävä 31 - 36 </li></a>
+       <a class="pois" href="phpsivu6.php"><li> Tehtävä 37 - 42 </li></a>	  
       </ul>
     </div>
 
