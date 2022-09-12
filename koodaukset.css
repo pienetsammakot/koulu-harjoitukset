@@ -45,6 +45,7 @@
         padding: 20px;
         margin: 20px;		
 	  }
+	  
 .loota2 {
 		width: 50%;
 		background-color: #3c4542;
@@ -53,3 +54,13 @@
 		padding: 20px;
 		font-family: 'Special Elite', cursive;
 	   }
+	   
+.loota3 {
+	    width: 50%;
+	    color: DarkSlateGray;
+	    background-color: DarkSeaGreen;
+	    border: 3px solid midnightblue;
+	    padding: 20px;
+	    margin: 20px;    
+	    font-family: 'Amiri', serif;
+       }
