@@ -1,3 +1,3 @@
-# koulu-harjoitukset
+# php-harjoitukset
 
 PHP:n harjoittelua.
